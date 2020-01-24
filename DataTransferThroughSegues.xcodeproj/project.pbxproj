@@ -14,6 +14,8 @@
 		336ACDEE2385002400CDD531 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336ACDEC2385002400CDD531 /* LaunchScreen.storyboard */; };
 		336ACDF92385002500CDD531 /* DataTransferThroughSeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ACDF82385002500CDD531 /* DataTransferThroughSeguesTests.swift */; };
 		336ACE042385002500CDD531 /* DataTransferThroughSeguesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ACE032385002500CDD531 /* DataTransferThroughSeguesUITests.swift */; };
+		336ACE122385029400CDD531 /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ACE112385029400CDD531 /* BlueViewController.swift */; };
+		336ACE14238502A900CDD531 /* VioletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336ACE13238502A900CDD531 /* VioletViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		336ACDFF2385002500CDD531 /* DataTransferThroughSeguesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataTransferThroughSeguesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		336ACE032385002500CDD531 /* DataTransferThroughSeguesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTransferThroughSeguesUITests.swift; sourceTree = "<group>"; };
 		336ACE052385002500CDD531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336ACE112385029400CDD531 /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		336ACE13238502A900CDD531 /* VioletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VioletViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				336ACDE32385002200CDD531 /* AppDelegate.swift */,
 				336ACDE52385002200CDD531 /* ViewController.swift */,
+				336ACE112385029400CDD531 /* BlueViewController.swift */,
+				336ACE13238502A900CDD531 /* VioletViewController.swift */,
 				336ACDE72385002200CDD531 /* Main.storyboard */,
 				336ACDEA2385002400CDD531 /* Assets.xcassets */,
 				336ACDEC2385002400CDD531 /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				336ACDE62385002200CDD531 /* ViewController.swift in Sources */,
+				336ACE122385029400CDD531 /* BlueViewController.swift in Sources */,
 				336ACDE42385002200CDD531 /* AppDelegate.swift in Sources */,
+				336ACE14238502A900CDD531 /* VioletViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
